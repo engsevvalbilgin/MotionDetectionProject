@@ -43,6 +43,6 @@ while True:
 
     if cv.waitKey(100) & 0xFF == ord('q'):
         break
-#
+
 video.release()
 cv.destroyAllWindows()
